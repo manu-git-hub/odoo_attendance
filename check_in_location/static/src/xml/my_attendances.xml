@@ -33,7 +33,7 @@
                                 <t t-foreach="widget.attendance_location" t-as="location">
                                     <div class="col-md-6">
                                         <a t-att-class="'fa fa-5x o_hr_attendance_sign_in_out_icon btn-secondary ' + location.loc_class_name" t-att-location-id="location.id" t-if="!checked_in" aria-label="Sign in" title="Sign in"/>
-                                        <h3 class="mt0 mb0 text-muted"><b>Check in at <t t-esc="location.name"/><i class="fa fa-home" aria-hidden="true"></i></b></h3>
+                                        <h3 class="mt0 mb0 text-muted"><b>Check in From <t t-esc="location.name"/><i class="fa fa-home" aria-hidden="true"></i></b></h3>
                                     </div>
                                 </t>
                             </t>

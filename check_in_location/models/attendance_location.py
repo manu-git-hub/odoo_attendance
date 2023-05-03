@@ -7,3 +7,4 @@ class HrAttendanceLocation(models.Model):
     code = fields.Char('Code', required=True)
     name = fields.Char('Name', required=True)
     loc_class_name = fields.Char('Class Name')
+    
